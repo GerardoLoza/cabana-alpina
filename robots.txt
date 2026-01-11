@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cabaña-nuestro-rincon.com.ar/sitemap.xml

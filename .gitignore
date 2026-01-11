@@ -1,0 +1,56 @@
+# Lighthouse CI
+.lighthouseci/
+lighthouse-results/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.sublime-workspace
+.sublime-project
+
+# Node.js (por si decides usar npm en el futuro)
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Variables de entorno y secretos
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporales
+*.tmp
+*.temp
+.cache/
+
+# Build outputs (por si decides usar un bundler)
+dist/
+build/
+.next/
+out/
+
+# Coverage reports
+coverage/
+.nyc_output/
